@@ -1,5 +1,5 @@
 document.getElementById('my-btn').addEventListener('click', determiner)
- function determiner() {
+function determiner () {
   let n1 = document.getElementById('my-text').value
   n1 = parseInt(n1)
   let n2 = document.getElementById('my-text2').value
